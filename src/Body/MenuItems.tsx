@@ -92,7 +92,7 @@ const MenuItems = () => {
           </div>
         </div>
 
-        <div className="w-[70%] px-6 py-4 absolute mt-30 md:mt-0">
+        <div className="w-[70%] px-6 py-4 absolute ">
           <Accordion type="single" collapsible={true}>
             {details?.map((item, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
