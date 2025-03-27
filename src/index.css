@@ -122,11 +122,12 @@
     @apply bg-black transition-colors duration-300 hover:text-blue-500 text-white px-6 py-2 rounded-lg focus:ring-2 focus:ring-blue-500;
   }
 }
-
 @theme{
   --color-primary:#121618;
   --color-secondary: #BBBBBB;
   --font-oswald: "Oswald", "sans-serif";
   --font-kelly: "Kelly Slab"," sans-serif";
 }
-
+html{
+  scroll-behavior: smooth;
+}
